@@ -1,0 +1,13 @@
+GET http://localhost:3333/tecnologias
+
+###
+GET http://localhost:3333/tecnologias/destaques
+
+###
+POST https://gt3oliveira.app.n8n.cloud/webhook/assistente-pessoal
+Content-Type: application/json
+
+{
+    "chatId": "123456458",
+    "input": "Boa tarde Gustavo!"
+}
