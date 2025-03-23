@@ -24,8 +24,9 @@ export function Cabecalho() {
 					<div className="group-hover:hidden">
 						<GrGithub size={24} />
 					</div>
-					<div className="hidden group-hover:block">
+					<div className="hidden group-hover:flex w-full items-center gap-2">
 						<VscGithub size={24} />
+						<span className="text-sm text-white">gt3oliveira</span>
 					</div>
 				</Link>
 			</Container>

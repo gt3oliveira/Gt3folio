@@ -15,20 +15,20 @@ export function Menu() {
 				href="/"
 				selecionado={caminho === "/"}
 				label="Início"
-				icon={<HiOutlineHome size={16} />}
+				icon={<HiOutlineHome className="size-6 min-[410px]:size-3" />}
 			/>
 			<MenuItem
 				href="/projeto/1"
 				selecionado={caminho.startsWith("/projeto")}
 				label="Projetos"
-				icon={<GoProject size={16} />}
+				icon={<GoProject className="size-6 min-[410px]:size-3" />}
 			/>
 			<MenuItem
 				href="https://api.whatsapp.com/send/?phone=5524999530275&text&type=phone_number"
 				novaAba={true}
 				selecionado={false}
 				label="Contato"
-				icon={<FaWhatsapp size={16} className="text-green-400" />}
+				icon={<FaWhatsapp className="text-green-400 size-6 min-[410px]:size-3" />}
 			/>
 		</nav>
 	)
